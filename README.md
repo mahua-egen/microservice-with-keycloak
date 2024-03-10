@@ -10,7 +10,11 @@ need some configuration:
 1. First need to create realm.
 2. To call admin rest api, use admin-cli client. enable "Client authentication" and "Service accounts roles"
 3. Assign realm-admin role to admin-cli 
-4. Use mailhog to send email: http://localhost:8025/
+4. Use mailhog to send email
+5. Install mailhog. http://localhost:8025/
+6. Update email configuration from Realm Settings
+7. Host=localhost, port=1025, From=test@gmail.com, From display name=Keycloak Admin, Reply to=test@gmail.com, Reply to display name=Keycloak Admin
+8. Test connection and then save
 
 
 # generate token
