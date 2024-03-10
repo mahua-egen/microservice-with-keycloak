@@ -113,3 +113,13 @@ POST
 http://localhost:9004/authentication/employee/update-password
 Authorization: Bearer ${token}
 PUT
+
+# call microservice 1
+http://localhost:8765/currency-exchange/exchange-rate/from/USD/to/BDT
+Authorization: Bearer ${token}
+GET
+
+# call microservice 2
+http://localhost:8765/currency-conversion/conversion/from/USD/to/BDT/quantity/2
+Authorization: Bearer ${token}
+GET
