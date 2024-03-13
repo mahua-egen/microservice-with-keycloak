@@ -9,7 +9,7 @@ password: admin
 need some configuration:
 1. First need to create realm.
 2. To call admin rest api, use admin-cli client. enable "Client authentication" and "Service accounts roles"
-3. Assign realm-admin role to admin-cli 
+3. Assign realm-admin role to admin-cli, click admin-cli-> click Service accounts roles tab -> click Assign role button -> select Filter by clients -> search realm-admin role -> save 
 4. Use mailhog to send email
 5. Install mailhog. http://localhost:8025/
 6. Update email configuration from Realm Settings
