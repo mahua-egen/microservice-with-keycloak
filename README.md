@@ -34,7 +34,6 @@ POST
 
 # create user
 http://localhost:8765/authentication/employee/save
-Authorization: Bearer ${token}
 POST
 {
 "username":"sunny",
