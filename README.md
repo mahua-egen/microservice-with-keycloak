@@ -1,3 +1,5 @@
+Keycloak 23.0.7
+
 keyCloak: 
 http://localhost:8080
 
