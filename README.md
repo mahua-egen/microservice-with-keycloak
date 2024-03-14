@@ -1,4 +1,4 @@
-Keycloak 23.0.7
+Keycloak server version: 23.0.7
 
 <dependency>
 	<groupId>org.keycloak</groupId>
