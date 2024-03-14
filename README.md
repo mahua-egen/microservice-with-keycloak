@@ -1,5 +1,23 @@
 Keycloak 23.0.7
 
+<dependency>
+	<groupId>org.keycloak</groupId>
+	<artifactId>keycloak-spring-boot-starter</artifactId>
+</dependency>
+<dependency>
+	<groupId>org.keycloak</groupId>
+	<artifactId>keycloak-admin-client</artifactId>
+	<version>23.0.7</version>
+</dependency>
+<dependency>
+	<groupId>org.keycloak.bom</groupId>
+	<artifactId>keycloak-adapter-bom</artifactId>
+	<version>23.0.7</version>
+	<type>pom</type>
+	<scope>import</scope>
+</dependency>
+  
+
 keyCloak: 
 http://localhost:8080
 
